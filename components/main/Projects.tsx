@@ -18,18 +18,18 @@ const Projects = () => {
       </h2>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/next.png"
           title="Modern Next.js Portfolio"
           description="Responsive dynamic portfolio website that highlights my expertise and experience.
           Nextjs, Typescript, Tailwind CSS, Framer Motion, Vercel"
         />
         <ProjectCard
-          src="/CardImage.png"
+          src="/dj.png"
           title="BLOG"
           description="Fullstack Blog App Using Django."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/py.png"
           title="AI-based Network IDS"
           description=""
         />
