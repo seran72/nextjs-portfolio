@@ -53,8 +53,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <a target="_blank" href="https://www.linkedin.com/in/serangemechu/" className="cursor-pointer">
-            Let&apos;s Connect!
+          <a target="_blank" href="https://myblog-s43l5afo5a-uc.a.run.app" className="cursor-pointer">
+            Visit My Blog
           </a>
         </motion.a>
       </div>
