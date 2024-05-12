@@ -46,17 +46,15 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Experienced professional with a Bsc. in Computer Science from CSU, Sacramento. 
-          Proven expertise in networking, programming, and technical support engineering. 
-          Successful track record as a Technical Support Engineer at Tesla and Applications Support Engineer at Embedded Works. 
-          Demonstrated ability to excel in dynamic technical environments.
+        Software Engineer with proven expertise in Tech support, Networking, and FullStack Development. 
+        Successful track record adapting and exceeding expectations in dynamic technical environments.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           <a target="_blank" href="https://www.linkedin.com/in/serangemechu/" className="cursor-pointer">
-            Learn More!
+            Let&apos;s Connect!
           </a>
         </motion.a>
       </div>

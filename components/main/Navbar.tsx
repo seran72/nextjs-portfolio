@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
-              About me
+              About
             </a>
             <a href="#skills" className="cursor-pointer">
               Skills
@@ -34,7 +34,7 @@ const Navbar = () => {
             <a href="#projects" className="cursor-pointer">
               Projects
             </a>
-            <a target="_blank" href="https://cyberwbo.blogspot.com/" className="cursor-pointer">
+            <a target="_blank" href="https://myblog-s43l5afo5a-uc.a.run.app" className="cursor-pointer">
               Blog
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/serangemechu/" className="cursor-pointer">

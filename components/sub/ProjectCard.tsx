@@ -1,29 +1,55 @@
-import Image from "next/image";
-import React from "react";
+// import React from 'react';
+// import Image from 'next/image'
+// import Link from 'next/link';
 
-interface Props {
-  src: string;
-  title: string;
-  description: string;
-}
+// const ProjectCard = ({ projects }) => {
+//   return (
+//     <section className="projects-section">
+//       <h1 className="md:font-bold text-cyan-500 text-[40px] flex flex-col items-center justify-center py-20" id="skills">
+//          Projects
+//       </h1>
+//       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+//         {projects.slice(0, 4).map((project) => (
+//           <div key={project.id} className="project-card">
+//             <div className="relative w-20 h-20">
+//               <Image
+//                 src={project.imageUrl}
+//                 alt={project.title}
+//                 layout="fill"
+//                 objectFit="cover"
+//                 className="rounded"
+//               />
+//             </div>
+//             <h3 className="text-lg font-semibold mt-2">{project.title}</h3>
+//             <p className="text-gray-600">{project.description}</p>
+//             <Link href={project.link} target="_blank" rel="noopener noreferrer">
+//               <span className="text-blue-500 hover:text-blue-700">View Project</span>
+//             </Link>
+//           </div>
+//         ))}
+//       </div>
+//       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+//         {projects.slice(4).map((project) => (
+//           <div key={project.id} className="project-card">
+//             <div className="relative w-10 h-10">
+//               <Image
+//                 src={project.imageUrl}
+//                 alt={project.title}
+//                 layout="fill"
+//                 objectFit="cover"
+//                 className="rounded"
+//               />
+//             </div>
+//             <h3 className="text-lg font-semibold mt-2">{project.title}</h3>
+//             <p className="text-gray-600">{project.description}</p>
+//             <Link href={project.link} target="_blank" rel="noopener noreferrer">
+//               <span className="text-blue-500 hover:text-blue-700">View Project</span>
+//             </Link>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+// export default ProjectCard;
 
-const ProjectCard = ({ src, title, description }: Props) => {
-  return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <Image
-        src={src}
-        alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
-      />
-
-      <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
-      </div>
-    </div>
-  );
-};
-
-export default ProjectCard;

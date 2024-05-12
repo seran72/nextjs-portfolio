@@ -105,18 +105,42 @@ export const Skill_data = [
       height: 70,
     },
     {
+      skill_name: "Mongo",
+      Image: "/mongo.png",
+      width: 70,
+      height: 70,
+    },
+    {
       skill_name: "Prisma",
       Image: "/prisma.webp",
       width: 70,
       height: 70,
     },
   ];
+
   
   export const Full_stack = [
-
+    {
+      skill_name: "Linux",
+      Image: "/linux.webp",
+      width: 70,
+      height: 70,
+    },
     {
       skill_name: "Docker",
       Image: "/docker.webp",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "AWS",
+      Image: "/aws.webp",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "GCP",
+      Image: "/gcp.png",
       width: 70,
       height: 70,
     },
@@ -128,28 +152,19 @@ export const Skill_data = [
     },
     {
       skill_name: "Git",
-      Image: "/git.webp",
+      Image: "/git.jpg",
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "Linux",
-      Image: "/linux.webp",
-      width: 70,
-      height: 70,
-    },
+
+
     {
       skill_name: "VsCode",
       Image: "/vscode.jpg",
       width: 70,
       height: 70,
     },
-    {
-      skill_name: "AWS",
-      Image: "/aws.webp",
-      width: 70,
-      height: 70,
-    },
+
   
   ];
   
