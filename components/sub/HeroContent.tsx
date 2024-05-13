@@ -46,8 +46,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-        Software Engineer with proven expertise in Tech support, Networking, and FullStack Development. 
-        Successful track record adapting and exceeding expectations in dynamic technical environments.
+Results-oriented Software Engineer with a proven track record in technical support, and Full-Stack development. 
+Thrives in dynamic technical environments, delivering exceptional results that surpass expectations.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
