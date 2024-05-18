@@ -22,9 +22,13 @@ const Navbar = () => {
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
+            <a href="#work" className="cursor-pointer">
+              Experience
+            </a>
             <a href="#projects" className="cursor-pointer">
               Projects
             </a>
+            
             <a target="_blank" href="https://myblog-s43l5afo5a-uc.a.run.app" className="cursor-pointer">
               Blog
             </a>
@@ -32,6 +36,7 @@ const Navbar = () => {
               Linkedin
             </a>
             <a href="#" className="cursor-pointer">
+              
             </a>
           </div>
         </div>

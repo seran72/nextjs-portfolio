@@ -2,6 +2,8 @@
 import Hero from "@/components/main/Hero";
 import Skills from "@/components/main/Skills";
 import ProjectCard from "@/components/main/ProjectCard";
+import WorkHistory from "@/components/sub/WorkHistory"
+
 
 const projects = [
 {
@@ -55,6 +57,7 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero/>
         <Skills/>
+        <WorkHistory/>
         <ProjectCard projects={projects} />
       </div>
     </main>
