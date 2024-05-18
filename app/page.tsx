@@ -1,8 +1,6 @@
-import Encryption from "@/components/main/Encryption";
+'use client'
 import Hero from "@/components/main/Hero";
-// import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
-import Image from "next/image";
 import ProjectCard from "@/components/main/ProjectCard";
 
 const projects = [
@@ -13,7 +11,6 @@ const projects = [
     imageUrl: '/nextproject.jpg',
     link: 'https://seran-portfolio.vercel.app/',
   },
-  // Add more projects here
   {
     id: 2,
     title: 'Vendor Portal',
@@ -28,7 +25,6 @@ const projects = [
     imageUrl: '/fullstackblog.png',
     link: 'https://myblog-s43l5afo5a-uc.a.run.app/'
   },
-  // Add more projects here
   {
     id: 4,
     title: 'Django Fullstack App',
@@ -50,7 +46,6 @@ const projects = [
     imageUrl: '/ml.png',
     link: 'https://github.com/seran72'
   },
-  // Add more projects here
 
 ]
 
@@ -60,7 +55,6 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero/>
         <Skills/>
-        {/* <Encryption/> */}
         <ProjectCard projects={projects} />
       </div>
     </main>

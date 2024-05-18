@@ -46,8 +46,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-Results-oriented Software Engineer with a proven track record in technical support, and Full-Stack development. 
-Thrives in dynamic technical environments, delivering exceptional results that surpass expectations.
+        Results-oriented Software Engineer with expertise in Tech support, Networking, and Full Stack Development. 
+        Successful track record adapting and exceeding expectations in dynamic technical environments.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
@@ -58,8 +58,6 @@ Thrives in dynamic technical environments, delivering exceptional results that s
           </a>
         </motion.a>
       </div>
-      
-
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
