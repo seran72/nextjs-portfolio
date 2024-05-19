@@ -1,31 +1,41 @@
 "use client"
 import React from 'react'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
+
+// Define new animations
+const containerVariants = {
+  hidden: { opacity: 0, scale: 0.8 },
+  visible: { opacity: 1, scale: 1, transition: { duration: 0.8 } }
+};
+
+const h1Variants = {
+  hidden: { opacity: 0, x: -100 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.6, type: 'spring', stiffness: 100 } }
+};
 
 const SkillText = () => {
   return (
-    <div className='w-full h-auto flex flex-col items-center justify-center'>
+    <motion.div
+      className='w-full h-auto flex flex-col items-center justify-center'
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
       <motion.div
-          variants={slideInFromTop}
-          className="Welcome-box py-2 px-6 mb-8 border border-[#7042f88b] opacity-100"
+        variants={slideInFromTop}
+        className="Welcome-box py-2 px-6 mb-8 border border-[#7042f88b] opacity-100"
+      >
+        <motion.h1
+          className="md:font-bold text-cyan-500 text-[40px]"
+          variants={h1Variants}
+          initial="hidden"
+          animate="visible"
         >
-          <h1 className="md:font-bold text-cyan-500 text-[40px]">
-            Technologies
-          </h1>
-        </motion.div>
-        <motion.div
-        variants={slideInFromLeft(0.5)}
-        className='text-[20px] text-white font-medium mt-[10px] text-center mb-[15px]'
-        >
+          Technologies
+        </motion.h1>
+      </motion.div>
     </motion.div>
-        <motion.div
-        variants={slideInFromRight(0.5)}
-        className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
-        >
-            {/* Never miss a task, deadline or idea */}
-        </motion.div>
-    </div>
   )
 }
 

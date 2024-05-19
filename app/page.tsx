@@ -4,7 +4,6 @@ import Skills from "@/components/main/Skills";
 import ProjectCard from "@/components/main/ProjectCard";
 import WorkHistory from "@/components/sub/WorkHistory"
 
-
 const projects = [
 {
     id: 1,
@@ -51,16 +50,33 @@ const projects = [
 
 ]
 
+
 export default function Home() {
   return (
-    <main className="h-full w-full">
-      <div className="flex flex-col gap-20">
-        <Hero/>
-        <Skills/>
-        <WorkHistory/>
+    <main className="relative h-full w-full dark:bg-[#030014] bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex items-center justify-center">
+      {/* Radial gradient for the container to give a faded look */}
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#030014] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+      <div className="relative z-10 flex flex-col gap-20">
+        <Hero />
+        <Skills />
+        <WorkHistory />
         <ProjectCard projects={projects} />
       </div>
     </main>
   );
 }
+
+
+// export default function Home() {
+//   return (
+//     <main className="h-full w-full">
+//       <div className="flex flex-col gap-20">
+//         <Hero/>
+//         <Skills/>
+//         <WorkHistory/>
+//         <ProjectCard projects={projects} />
+//       </div>
+//     </main>
+//   );
+// }
 

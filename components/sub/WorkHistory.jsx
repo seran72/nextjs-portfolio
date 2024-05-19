@@ -30,7 +30,7 @@ const jobHistories = [
   },
   {
     company: "CSU Sacramento",
-    role: "Associated Student Incorporated (ASI) on the IT Advisory Board",
+    role: "Associated Student Incorporated - IT Advisory Board",
     period: "09/2018 – 05/2019",
     description: [],
   },
@@ -82,7 +82,7 @@ const WorkHistory = () => {
           >
             <div className={`relative p-2 rounded-lg shadow-md w-[40%] ${index % 2 === 0 ? 'mr-[calc(60%-20px)]' : 'ml-[calc(60%-20px)]'} 
               bg-gradient-to-r from-green-400 to-blue-500 
-              dark:from-purple-600 dark:to-indigo-800`}>
+              dark:from-green-600 dark:to-indigo-600`}>
               {/* Connector dots */}
               {/* <span className={`absolute top-1/2 transform -translate-y-1/2 w-8 h-8 rounded-full bg-cyan-500 border-4 border-white dark:border-gray-800 ${index % 2 === 0 ? '-right-[28px]' : '-left-[28px]'}`}></span> */}
               <h2 className="text-xl font-bold text-gray-800 dark:text-white mb-1">
@@ -94,11 +94,11 @@ const WorkHistory = () => {
               <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
                 {job.period}
               </p>
-              <ul className="list-disc pl-5 text-sm text-gray-700 dark:text-gray-300 space-y-2">
+              {/* <ul className="list-disc pl-5 text-sm text-gray-700 dark:text-gray-300 space-y-2">
                 {job.description.map((desc, i) => (
                   <li key={i}>{desc}</li>
                 ))}
-              </ul>
+              </ul> */}
             </div>
           </motion.div>
         ))}

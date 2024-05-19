@@ -5,7 +5,7 @@ import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["greek"] });
 
 export const metadata: Metadata = {
   title: "Serans Portfolio",

@@ -9,3 +9,7 @@ export function cn_typewriter(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+ 
+export function cn_bg(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
