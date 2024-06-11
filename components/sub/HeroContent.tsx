@@ -50,7 +50,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Results-oriented Software Engineer with expertise in tech support, networking, and full-stack development. Proven track record of adapting and exceeding expectations in dynamic technical environments. Skilled in identifying and resolving complex technical issues, ensuring seamless operations, and delivering high-quality software solutions. Demonstrated ability to work collaboratively in team settings and independently drive projects to successful completion. Committed to continuous learning and staying up-to-date with the latest industry trends and technologies.
+          Results-oriented Engineer with expertise in tech support, networking, and full-stack development. Proven track record of adapting and exceeding expectations in dynamic technical environments. Skilled in identifying and resolving complex technical issues, ensuring seamless operations, and delivering high-quality software solutions. Demonstrated ability to work collaboratively in team settings and independently drive projects to successful completion. Committed to continuous learning and staying up-to-date with the latest industry trends and technologies.
           </motion.p>
 
         <motion.a
