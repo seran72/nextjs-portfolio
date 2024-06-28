@@ -29,7 +29,7 @@ const Navbar = () => {
               Projects
             </a>
             
-            <a target="_blank" href="https://myblog-s43l5afo5a-uc.a.run.app" className="cursor-pointer">
+            <a target="_blank" href="https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/" className="cursor-pointer">
               Blog
             </a>
             <a target="_blank" href="https://www.linkedin.com/in/serangemechu/" className="cursor-pointer">
