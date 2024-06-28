@@ -57,7 +57,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <a target="_blank" href="https://myblog-s43l5afo5a-uc.a.run.app" className="cursor-pointer">
+          <a target="_blank" href="https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/" className="cursor-pointer">
             Visit My Blog
           </a>
         </motion.a>
