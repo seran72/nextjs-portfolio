@@ -3,7 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.body{
+  background-color: black;
+}
 
 .cursive {
   font-family: "Cedarville Cursive", cursive;
@@ -68,4 +70,5 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: black;
 }

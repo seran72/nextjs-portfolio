@@ -53,9 +53,9 @@ const projects = [
 
 export default function Home() {
   return (
-    <main className="relative h-full w-full dark:bg-[#030014] bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex items-center justify-center">
+    <main className="relative h-full w-full dark:bg-[#030014] bg-black dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#030014] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#030014] bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="relative z-10 flex flex-col gap-20">
         <Hero />
         <Skills />
