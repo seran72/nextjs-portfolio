@@ -59,7 +59,7 @@ export default function Home() {
       <div className="relative z-10 flex flex-col gap-20">
         <Hero />
         <Skills />
-        <WorkHistory />
+{/*         <WorkHistory /> */}
         <ProjectCard projects={projects} />
       </div>
     </main>
