@@ -4,42 +4,7 @@ import { motion } from "framer-motion";
 import { slideInFromTop } from '@/utils/motion';
 
 const jobHistories = [
-  {
-    company: "Embedded Works Inc",
-    role: "Applications Support Engineer",
-    period: "03/2023 – 01/2024",
-    description: [],
-  },
-  {
-    company: "Tesla",
-    role: "Technical Support Engineer Intern",
-    period: "05/2022 – 12/2022",
-    description: [],
-  },
-  {
-    company: "CSU Sacramento",
-    role: "Resident Advisor",
-    period: "08/2021 – 05/2022",
-    description: [],
-  },
-  {
-    company: "Experimax",
-    role: "Apple Repair Technician",
-    period: "01/2020 – 08/2020",
-    description: [],
-  },
-  {
-    company: "CSU Sacramento",
-    role: "Associated Student Incorporated - IT Advisory Board",
-    period: "09/2018 – 05/2019",
-    description: [],
-  },
-  {
-    company: "UbreakiFix",
-    role: "Electronic Repair Technician",
-    period: "06/2018 – 08/2018",
-    description: [],
-  },
+ 
 ];
 
 const timelineVariants = {

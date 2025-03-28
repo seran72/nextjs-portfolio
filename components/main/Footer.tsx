@@ -14,9 +14,6 @@ const Footer = () => {
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         {/* <RxGithubLogo /> */}
                         {/* <span className="text-[15px] ml-[6px]">Github</span>     */}
-                        <div>
-                          
-                        </div>
                     </p>
                 </div>
             </div>

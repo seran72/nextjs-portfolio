@@ -50,16 +50,18 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-        Results-oriented Engineer with proven expertise in tech support, networking, and full-stack development. Adept at identifying and resolving complex technical issues, ensuring seamless operations, and delivering high-quality software solutions. Demonstrated success collaborating on team projects and taking independent ownership to drive initiatives to completion. Committed to continuous learning, staying current with the latest industry trends and technologies to maintain a cutting-edge skill set and consistently exceed expectations in dynamic technical environments.
-          </motion.p>
+                Results-oriented Engineer with expertise in tech support, networking, and full-stack development. 
+                Adept at resolving complex technical issues and delivering high-quality solutions. Continuously learning and adapting to new technologies.
+        </motion.p>
 
         <motion.a
+          href="https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/"
+          target="_blank"
+          rel="noopener noreferrer"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <a target="_blank" href="https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/" className="cursor-pointer">
-            Visit My Blog
-          </a>
+          Visit My Blog
         </motion.a>
       </div>
       
