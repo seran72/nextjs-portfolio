@@ -25,7 +25,6 @@ const Hero = () => {
             strings: [
               'Master of systems — from hardware to intelligence.',
               'Adaptable. Reliable. Engineered for impact.',
-              'Why hire potential when you can hire proof?',
               'Cloud-native. AI-integrated. Team-ready.',
             ],
             autoStart: true,
@@ -60,7 +59,7 @@ const Hero = () => {
         transition={{ delay: 0.6, duration: 0.7 }}
         className="mt-6 text-base md:text-lg text-slate-400 max-w-xl"
       >
-        Results-driven Engineer specialized in <span className="text-white">Customer Engineering</span>, <span className="text-white">Networking</span>, and <span className="text-white">Software Development</span>,with hands-on experience and a growing passion for <span className="text-white">AI</span> and <span className="text-white">Machine Learning</span>.
+        Results-driven Engineer specialized in <span className="text-white">Customer Engineering</span>, <span className="text-white">Networking & Security</span>, and <span className="text-white">Software Development</span>,with hands-on experience and a growing passion for <span className="text-white">AI</span> and <span className="text-white">Machine Learning</span>.
       </motion.p>
 
       <motion.div
