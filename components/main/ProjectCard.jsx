@@ -38,9 +38,9 @@ const projects = [
   },
   {
     id: 5,
-    title: 'WiFi/WPA Hacking',
+    title: 'Ethical Hacking: WiFi/WPA PenTest',
     description: 'Kali Linux: Leveraged pen-testing techniques and tools to identify potential security risks and exploit WPA vulnerabilities in a controlled environment.',
-    imageUrl: '/wpa.png',
+    imageUrl: '/kali.jpg',
     link: 'https://cyberwbo.blogspot.com/2023/02/crack-wpawpa2-wifi-passwords-in-afaan.html'
   },
   {
