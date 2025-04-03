@@ -1,44 +1,42 @@
-import React from "react";
-import { FaHome } from "react-icons/fa";
+'use client';
 
+import React from 'react';
+import { FaHome } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a
-          href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
-        >
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            <FaHome />
-          </span>
+    <nav className="fixed top-0 w-full h-[65px] z-50 backdrop-blur-md bg-[#03001417] shadow-lg shadow-[#2A0E61]/50 px-6 md:px-10">
+      <div className="flex justify-between items-center h-full">
+        {/* Logo or Home */}
+        <a href="#hero" className="flex items-center text-gray-300 text-xl">
+          <FaHome className="mr-2" />
+          <span className="hidden md:inline font-bold">Home</span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
-            </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
-            </a>
-            <a href="#projects" className="cursor-pointer">
-              Projects
-            </a>
-            
-            <a target="_blank" href="https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/" className="cursor-pointer">
-              Blog
-            </a>
-            <a target="_blank" href="https://www.linkedin.com/in/serangemechu/" className="cursor-pointer">
-              Linkedin
-            </a>
-            <a href="#" className="cursor-pointer">
-              
-            </a>
-          </div>
+        {/* Navigation Links */}
+        <div className="hidden sm:flex items-center gap-4 md:gap-6 px-6 py-2 border border-[#7042f861] bg-[#0300145e] rounded-full text-sm text-gray-200">
+          <a href="#education" className="hover:text-cyan-400 transition">Education</a>
+          <a href="#skills" className="hover:text-cyan-400 transition">Skills</a>
+          <a href="#projects" className="hover:text-cyan-400 transition">Projects</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://nextjs-mongodb-google-auth-blog-6hf26hrrfa-uw.a.run.app/"
+            className="hover:text-pink-400 transition"
+          >
+            Blog
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/serangemechu/"
+            className="hover:text-pink-400 transition"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

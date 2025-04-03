@@ -4,8 +4,9 @@ import * as THREE from 'three';
 
 const Matrix3DBackground = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-
+  
   useEffect(() => {
+    
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
       65,
